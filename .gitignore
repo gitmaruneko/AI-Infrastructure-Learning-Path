@@ -1,0 +1,73 @@
+# ============================================================
+# AI-Infrastructure-Learning-Path — .gitignore
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- 虛擬環境 / Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- 資料集 / Datasets (通常體積過大，不納入版控) ---
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+# 忽略 data 目錄內容，但保留 README.md
+data/*
+!data/README.md
+
+# --- 訓練好的模型 / Trained Models ---
+*.pkl
+*.joblib
+*.pt
+*.pth
+# 忽略 models 目錄內容，但保留 README.md
+models/*
+!models/README.md
+
+# --- 環境變數 / Environment Variables ---
+.env
+.env.*
+!.env.example
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs ---
+*.log
+logs/
+
+# --- 暫存 / Temporary ---
+tmp/
+temp/
