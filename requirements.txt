@@ -1,0 +1,33 @@
+# ============================================================
+# AI-Infrastructure-Learning-Path — Python 環境依賴
+# 安裝方式：pip install -r requirements.txt
+# ============================================================
+
+# --- 資料處理 / Data Processing ---
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# --- 深度學習 / Deep Learning ---
+tensorflow>=2.13.0
+# torch>=2.0.0          # 如需 PyTorch 請取消註解
+
+# --- 資料視覺化 / Visualisation ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --- Jupyter / Notebook ---
+notebook>=7.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+
+# --- 模型序列化 / Model Serialisation ---
+joblib>=1.3.0
+# h5py>=3.9.0           # 用於 Keras .h5 模型儲存
+
+# --- 自動化 / Automation ---
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# --- 日誌分析 / Log Analysis ---
+regex>=2023.6.3
